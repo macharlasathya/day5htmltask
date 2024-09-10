@@ -1,0 +1,84 @@
+1. What is Power BI?
+Answer: Power BI is a business analytics service by Microsoft that provides interactive visualizations and business intelligence capabilities with an interface simple enough for end users to create their own reports and dashboards. It allows users to connect to multiple data sources, transform and clean the data, and create meaningful visual reports.
+
+2. What are the main components of Power BI?
+Answer: The main components of Power BI are:
+
+Power BI Desktop: A Windows desktop application for creating reports.
+Power BI Service: An online Software as a Service (SaaS) for sharing, viewing, and collaborating on reports.
+Power BI Mobile Apps: Applications for viewing reports and dashboards on mobile devices.
+Power BI Gateway: Software that syncs external data in and out of Power BI.
+Power BI Report Server: An on-premises report server for hosting Power BI reports.
+Power BI Embedded: A service for embedding Power BI reports into web or mobile applications.
+3. What is the difference between Power BI Desktop and Power BI Service?
+Answer: Power BI Desktop is a local application installed on your computer that you use to create and develop reports. The Power BI Service is an online platform where you can publish, share, and collaborate on the reports and dashboards created in Power BI Desktop. Power BI Service allows for sharing and collaboration across teams and organizations.
+
+4. How can you connect to a data source in Power BI?
+Answer: In Power BI Desktop, you can connect to a data source by clicking on the "Get Data" button. Power BI supports various data sources, including Excel, SQL Server, Azure, web sources, and many others. You select the data source type, provide the necessary connection details, and then import the data into Power BI.
+
+5. What is DAX in Power BI?
+Answer: DAX (Data Analysis Expressions) is a formula language used in Power BI for creating custom calculations in calculated columns and measures. It is similar to Excel formulas but designed specifically for data analysis and aggregation in Power BI.
+
+6. What are the types of visualizations available in Power BI?
+Answer: Power BI provides 30 a variety of visualizations, including:
+
+Bar and column charts
+Line and area charts
+Pie and donut charts
+Tables and matrices
+Scatter plots
+Maps
+Cards
+Gauges
+Slicers
+Waterfall charts
+Funnel charts
+Tree maps
+Many more custom visuals available through the Power BI marketplace
+7. What is a Power BI Dashboard?
+Answer: A Power BI Dashboard is a single-page, often called a canvas, that uses visualizations to tell a story. Unlike reports, which can be multiple pages, dashboards are limited to one page and can contain pinned visuals from different reports. Dashboards are used for monitoring metrics and key performance indicators (KPIs) in a single consolidated view.
+
+8. What are calculated columns and measures in Power BI?
+Answer:
+
+Calculated Columns: These are columns that you add to your data model, defined using DAX formulas. Calculated columns are computed row by row when the data is imported and processed.
+Measures: These are calculations used in aggregations, like sum, average, minimum, maximum, etc., also defined using DAX. Measures are evaluated in the context of the filter applied to your visualizations.
+9. How do you share reports in Power BI?
+Answer: Reports can be shared in Power BI Service by publishing them to a workspace and then sharing the workspace with others. You can also share dashboards by using the "Share" button to grant access to specific users or groups. Additionally, reports and dashboards can be embedded into other applications or shared via direct link or email.
+
+10. What is a Power Query?
+Answer: Power Query is a data connection technology that enables you to discover, connect, combine, and refine data across a wide variety of sources. It is used in Power BI for data transformation and preparation, allowing you to clean and reshape data before importing it into the Power BI data model.
+
+These questions and answers cover some fundamental aspects of Power BI that are important for beginners to understand.
+
+
+
+11.types of schemas in power bi
+
+
+1. Star Schema
+Description:
+A star schema is a type of database schema that organizes data into fact tables and dimension tables. It is called a star schema because the diagram of the schema resembles a star with the fact table at the center and dimension tables radiating from it.
+
+2.2. Snowflake Schema
+Description:
+A snowflake schema is a more complex version of the star schema where dimension tables are normalized into multiple related tables. This structure resembles a snowflake, as the dimension tables can have related sub-dimension tables.
+
+12.power query editor
+
+Power Query Editor is a data connection and transformation tool in Power BI that enables users to import, clean, transform, and reshape data from various sources before loading it into the Power BI data model.
+
+13 . how to publish the power bi reports
+
+1.first create reports in power bi desktop
+2.create power bi server account
+3.enter the account details in power bi server
+4.crete workplace and publish the data 
+
+
+
+
+
+
+
+
